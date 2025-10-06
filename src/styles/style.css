@@ -1,0 +1,263 @@
+h1,
+h2,
+h3,
+h4,
+h5,
+figure,
+p,
+ol,
+ul {
+  margin: 0;
+}
+
+.promo{
+    
+    background : linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)),
+                url('../../dist/img/back.jpg') no-repeat center/cover;
+    height: 800px;
+    text-align: center;
+    padding: 22px;
+}
+
+.logo img{
+    display: block;
+    margin: 0 auto; 
+}
+.promo_logo_text{
+    padding-top: 15px;
+    text-transform: uppercase;
+    color:white;
+    font-size: 16px;
+}
+.promo__title {
+    margin-top: 52px;
+  }
+  
+  .promo__title,
+  .promo__subtitle {
+    color: #F9BF3B;
+    text-transform: uppercase;
+    font-size: 41px;
+    font-weight: bold;
+  }
+  
+  .promo__simple {
+    font-size: 80px;
+    color: white;
+    text-transform: uppercase;
+    font-weight: bold;
+  }
+  .promo__description {
+    color: white;
+    width: 1140px;
+    font-weight: 500;
+    font-size: 21px;
+    line-height: 28px;
+    margin: 20px auto 0;
+    font-family: Roboto;
+    font-weight: 500;
+    font-style: Medium;
+    font-size: 21px;
+    leading-trim: NONE;
+    line-height: 28px;
+    letter-spacing: 0px;
+    text-align: center;
+    vertical-align: middle;
+
+  }
+  .highlated{
+    color:orange;
+  }
+  .promo__button{
+    background: linear-gradient(#FEB05D,#FF4D00);
+    width: 315px;
+    height: 72px;
+    border-radius: 10px;
+    font-size: 21px;
+    color:white;
+    margin-top: 75px;
+    font-weight: 500;
+    text-transform: uppercase;
+    text-shadow: -1px -1px rgba(0, 0, 0, 0.2);
+  }
+  .promo__more {
+    font-size: 15px;
+    color: white;
+    margin-top: 100px;
+  }
+  
+  .promo__more img {
+    display: block;
+    margin: 15px auto 0;
+  }
+  .reason_why{
+    background:black no-repeat center/cover;
+    height: 700px;
+    text-align: center;
+    padding: 22px;
+  }
+  .why_is_neded_title{
+    color:#F9BF3B;
+    width: 750px;
+    font-size: 30px;
+    font-family: Roboto;
+    font-weight: 900;
+    text-transform: uppercase;
+    text-align: right;
+     margin-left: auto;
+    margin-right: 200px;  
+
+  }
+  .why_is_neded_text p{
+    color:white;
+    width: 700px;
+    margin-left: auto; 
+    margin-right: 200px; 
+    text-align: right;
+    font-size: 16px;
+  }
+  .image {
+    display: block;       /* превращаем в блок */
+    margin-left: 0;       /* прижимаем к левому краю */
+    margin-right: auto;
+    margin-top: 30px;   /* если нужно центрировать, ставим auto */
+    width: 100%;          /* масштабируем по ширине блока */
+    max-width: 600px;     /* фиксируем максимальный размер */
+  }
+.ability{
+    background : url("/dist/img/Bg.jpg") no-repeat center/cover;
+    height: 400px;
+    margin: 0;
+    padding: 0;
+    margin-top: 0;     /* обнуляем верхний margin */
+    text-align: center;
+}
+.ability_title{
+    color:white;
+    font-weight: 400;
+    font-size: 30px;
+    text-align: center;
+    text-transform: uppercase;
+    padding-top: 50px; /* отступ сверху */
+
+}
+hr {
+    width: 220px;               /* длина линии */
+    border: none;               /* убираем стандартную границу */
+    height: 5px;               /* толщина линии */
+    background-color: #F9BF3B;  /* цвет линии */
+  }
+
+.row {
+    display: grid;
+    grid-auto-flow: column; /* элементы идут слева направо */
+    gap: 100px;              /* расстояние между кругами */
+    justify-content: center; /* центрирует весь ряд по горизонтали */
+    align-items: center;      /* вертикальное центрирование */
+  }
+  .circle-container {
+    position: relative;
+    width: 150px;
+    height: 100px;
+  }
+  
+  .Circle {
+    width: 100%;
+    height: 100%;
+    margin-top: 50px;
+  }
+  
+  .overlay {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 50%;
+    height: 50%;
+    margin-top: 50px;
+  }
+  .gift{
+    background:white no-repeat center/cover;
+    height:400px;
+  }
+  
+  .radio { width: 50%; }
+  .optimization { width: 50%; }
+  .chart { width: 45%; }
+  .people { width: 50%; }
+  .wallet { width: 50%; }
+  .label{
+    color:white;
+    width: 100%;
+    text-align: center; /* центрирует текст по горизонтали */
+    margin-top: 10px;   /* расстояние между кругом и подписью */
+    font-size: 14px;
+}
+.present img {
+    display: block;
+    margin: 35px auto;
+}
+.signup h1{
+    margin: 45px auto;
+    width: 1000px;
+    text-align: center;
+}
+.signup button{
+    display: block;
+    margin: 45px auto;
+    width: 400px;
+    height: 60px;
+    background: linear-gradient(to top, #FF4D00, #FF9900);
+    color:white;
+}
+.first_webinar{
+    background: black no-repeat center/cover;
+    height: 470px;
+}
+.radio_block img{
+    display: block;
+    padding: 20px;
+    margin: 1px auto;
+}
+.radio_block_title{
+    color:white;
+    text-align: center;
+    font-size: 30px;
+    text-transform: uppercase;
+}
+.radio_block_data{
+    color:#F9BF3B;
+    text-align: center;
+    font-size: 36px;
+    text-transform: uppercase;
+    margin-top: 10px;
+    
+}
+.radio_block p{
+    text-align: center;
+    color:white;
+    font-size: 23px;
+    margin-top: 10px;
+}
+.footer{
+    background:#1A1A1A no-repeat center/cover;
+    height: 165px;
+}
+.support{
+    padding: 60px;
+}
+.support_policy{
+    color : #888888;
+    margin: 0 auto;
+    width: 200px;
+    text-align: center;
+}
+.support_number{
+    color : #888888;
+    margin: 0 auto;
+    width: 200px;
+    text-align: center;
+}
+.text_decoration{
+    text-decoration:underline;
+}
